@@ -6,6 +6,8 @@ public class Constants {
     public static String[] randomSeed;
 
     // =====定数=====
+    // ネットワークの数
+    public static int LN = 2;
     // エージェントの数
     public static int N = 100;
     // ステップ数

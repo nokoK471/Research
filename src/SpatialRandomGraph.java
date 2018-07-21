@@ -1,7 +1,10 @@
 public class SpatialRandomGraph {
+    int layer;
     Agent[] agents;
 
-    SpatialRandomGraph(double r){
+    SpatialRandomGraph(int l, double r){
+        layer = l;
+
         // agentsの初期化
         agents = new Agent[Constants.N];
         for(int i=0; i<Constants.N; i++){
